@@ -20,7 +20,7 @@ function operar(n1,n2,operacao){
     } else if(operacao == "/"){
         return divisao(n1,n2)
     } else if(operacao == "**"){
-        return exponeciacao(n1,n2)
+        return exponenciacao(n1,n2)
     } else{
         return "Erro interno operação não executada!"
     }
@@ -42,6 +42,6 @@ function divisao(x,y){
     return x / y
 }
 
-function exponeciacao(x,y){
+function exponenciacao(x,y){
     return x**y
 }
